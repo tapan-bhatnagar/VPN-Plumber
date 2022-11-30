@@ -1,4 +1,4 @@
-# Covtension
+# VPN-Plumber
 
 A simple chrome extension built in HTML, CSS and JS that allows users search for live coronavirus data on any country.
 
