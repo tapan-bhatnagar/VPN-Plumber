@@ -1,0 +1,26 @@
+{
+  "name": "vpn-plumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "chrome extension",
+    "IPv6 leak test",
+    "DNS leak test",
+    "VPN Plumber"
+  ],
+  "author": "Tapan Bhatnagar",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
