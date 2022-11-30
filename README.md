@@ -4,7 +4,7 @@ A simple chrome extension built in HTML, CSS and JS that allows users search for
 
 ## Video demo
 
-![](./demo.mov)
+![](./demo.gif)
 
 ## Getting Started
 
