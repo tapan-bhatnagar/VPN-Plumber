@@ -50,7 +50,7 @@ async function getIPv6ISP() {
     let epoch = Date.now();
 
     // console.log(`https://ipv6.browserleaks.com/ip_json?_=${epoch}`)
-    return await axios.get(`https://ipv6.browserleaks.com/ip_json?_=${epoch}`, {
+    return await axios.get(`https://ipv6.scratchypaws.com/${epoch}`, {
         headers: {
             'Accept-Encoding': 'application/json',
         }
@@ -79,7 +79,7 @@ async function getAllISP() {
         // console.log( urlPrefix)
 
         // make the request and get the response data
-        const response = await axios.get(`https://${urlPrefix}.6.browserleaks.org/get`, {
+        const response = await axios.get(`https://${urlPrefix}.scratchypaws.com/get`, {
             headers: {
                 'origin': 'https://browserleaks.com',
             }
@@ -87,19 +87,15 @@ async function getAllISP() {
 
         if (response.data) {
             successRes++;
-            // console.log(response.data)
             let dict = response.data;
             let values = Object.keys(dict).map(function(key){
                 return dict[key];
             });
-            // console.log(values)
             for(let j = 0; j < values.length; j++){
                 ispSet.add(values[j][2])
             }
         }
 
-        // get the ISP name and put it in the set
-        // return the set
     }
     console.log(successRes);
     console.log(ispSet)
@@ -134,7 +130,6 @@ export default function main(flag) {
         }, 5000);
 
     } else {
-        console.log("stopping the loop =============================== : " + intervalVar)
         clearInterval(intervalVar)
     }
 
