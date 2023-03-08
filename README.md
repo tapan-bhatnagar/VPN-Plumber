@@ -44,5 +44,5 @@ To install in Chrome
 👤 **Tapan Bhatnagar**
 👤 **Jaswanth Sai Reddy**
 
-- Github: [@tapan](https://github.com/TapanBhatnagar212)
+- Github: [@tapan](https://github.com/tapan-bhatnagar)
 - Linkedin: [Tapan](https://www.linkedin.com/in/tapan212/)
