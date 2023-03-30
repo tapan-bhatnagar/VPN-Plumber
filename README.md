@@ -1,6 +1,6 @@
 # VPN-Plumber
 
-A simple chrome extension built in HTML, CSS and JS that allows users search for live coronavirus data on any country.
+Developed novel research to detect IPv6 and DNS leaks in VPN tunnels and a Chrome Extension to inform users about privacy breaches. Also implemented an Authoritative DNS server from concept to adoption..
 
 ## Video demo
 
